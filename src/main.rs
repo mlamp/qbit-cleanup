@@ -54,8 +54,10 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     // Parse command line arguments using clap
     let cli = Cli::parse();
 
+    let env = Env::default().default_filter_or("info");
+
     // Configure logging based on --debug flag and RUST_LOG env var
-    let mut builder = Builder::from_env(Env::default());
+    let mut builder = Builder::from_env(env);
     if cli.debug {
         // Override with debug level if --debug flag is set
         builder.filter_level(LevelFilter::Debug);
