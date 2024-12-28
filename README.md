@@ -109,7 +109,9 @@ Run the binary and provide the necessary arguments. For example:
 4. **Push** to the branch: `git push origin my-new-feature`  
 5. **Open** a pull request.
 
-## Docker usage - [DockerHub Repo](https://hub.docker.com/r/mlamp/qbit-cleanup)
+## Docker usage
+
+[DockerHub Repo](https://hub.docker.com/r/mlamp/qbit-cleanup)
 
 
 ## License
