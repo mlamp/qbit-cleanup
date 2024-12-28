@@ -4,7 +4,7 @@ A Rust CLI tool that cleans up qBittorrent torrents by predicting their ratio gr
 
 ## Features
 
-- **Age threshold**: Removes torrents older than a certain number of days (`--age`).  
+- **Age threshold**: Only affects torrents older than a certain number of days (`--age`).  
 - **Predicted ratio**: Calculates a one-year ratio projection to decide which torrents to remove (`--ratio`).  
 - **Dry-run mode**: Lets you see which torrents _would_ be removed without actually deleting them (`--dry-run`).  
 - **Logging**:  
